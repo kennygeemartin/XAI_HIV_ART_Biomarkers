@@ -1,0 +1,5 @@
+stage,rows,predictor_features,numerical_tokens,categorical_tokens,missing_predictor_cells,synthetic_augmented_rows
+Raw dataset,5844,54,0,0,42195,0
+After cleaning and feature selection,5844,40,27,13,21993,0
+After imputation/transformation,5844,40,27,13,0,0
+FT training set after ART augmentation,4918,40,27,13,0,828

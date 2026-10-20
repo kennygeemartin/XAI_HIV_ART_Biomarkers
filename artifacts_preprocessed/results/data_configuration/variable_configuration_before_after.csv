@@ -1,0 +1,60 @@
+variable,role_after_preprocessing,original_dtype,overall_missing_n,overall_missing_percent,training_missing_percent,retained_as_predictor,operation
+SYNTHETIC_FLAG,Excluded metadata/other,int64,0,0.0,0.0,False,excluded
+CCSID,Excluded metadata/other,int64,0,0.0,0.0,False,excluded
+VISIT,Excluded metadata/other,int64,0,0.0,0.0,False,excluded
+VISDATE,Excluded metadata/other,object,0,0.0,0.0,False,excluded
+SITE,Categorical predictor,int64,0,0.0,0.0,True,mode imputation + embedding token
+STUDYHIST,Categorical predictor,int64,0,0.0,0.0,True,mode imputation + embedding token
+VISTYPE,Categorical predictor,int64,0,0.0,0.0,True,mode imputation + embedding token
+HIVPOS,Excluded leakage,int64,0,0.0,0.0,False,excluded
+AGEATVIS,Numerical predictor,float64,0,0.0,0.0,True,iterative imputation + Z-score
+SEXBIRTH,Categorical predictor,int64,0,0.0,0.0,True,mode imputation + embedding token
+HEIGHT,Numerical predictor,float64,0,0.0,0.0,True,iterative imputation + Z-score
+WEIGHT,Numerical predictor,float64,0,0.0,0.0,True,iterative imputation + Z-score
+BMI,Numerical predictor,float64,105,1.7967145790554413,1.8581907090464547,True,iterative imputation + Z-score
+MSPDT,Excluded metadata/other,object,0,0.0,0.0,False,excluded
+FASTING,Categorical predictor,int64,0,0.0,0.0,True,mode imputation + embedding token
+TOTCHOL,Numerical predictor,float64,225,3.8501026694045177,3.5452322738386304,True,iterative imputation + Z-score
+HDL,Numerical predictor,float64,220,3.764544832306639,3.8141809290953543,True,iterative imputation + Z-score
+TRIGLYC,Numerical predictor,float64,219,3.747433264887064,3.7652811735941323,True,log1p + iterative imputation + Z-score
+NONHDL,Numerical predictor,float64,230,3.9356605065023955,3.960880195599022,True,iterative imputation + Z-score
+MHLDLC,Numerical predictor,float64,338,5.783709787816564,5.89242053789731,True,iterative imputation + Z-score
+ALBU,Numerical predictor,float64,260,4.4490075290896645,4.376528117359413,True,iterative imputation + Z-score
+PROT,Numerical predictor,float64,244,4.175222450376454,3.8630806845965773,True,iterative imputation + Z-score
+GLOBULIN,Numerical predictor,float64,496,8.487337440109515,8.141809290953546,True,iterative imputation + Z-score
+A_G_RATIO,Numerical predictor,float64,496,8.487337440109515,8.141809290953546,True,iterative imputation + Z-score
+TC_HDL_RATIO,Numerical predictor,float64,439,7.511978097193703,7.26161369193154,True,log1p + iterative imputation + Z-score
+LDL_HDL_RATIO,Numerical predictor,float64,548,9.377138945927447,9.559902200488997,True,log1p + iterative imputation + Z-score
+TG_HDL_RATIO,Numerical predictor,float64,433,7.409308692676249,7.481662591687041,True,log1p + iterative imputation + Z-score
+CHOLRX,Categorical predictor,int64,0,0.0,0.0,True,mode imputation + embedding token
+NIACIN,Categorical predictor,int64,0,0.0,0.0,True,mode imputation + embedding token
+FIBRATES,Categorical predictor,int64,0,0.0,0.0,True,mode imputation + embedding token
+HBA1C,Numerical predictor,float64,700,11.978097193702943,12.004889975550121,True,iterative imputation + Z-score
+GLUCOSE,Numerical predictor,float64,363,6.211498973305955,6.405867970660147,True,iterative imputation + Z-score
+DIABETES,Categorical predictor,int64,0,0.0,0.0,True,mode imputation + embedding token
+CREAT,Numerical predictor,float64,243,4.158110882956879,4.083129584352078,True,iterative imputation + Z-score
+AST,Numerical predictor,float64,446,7.631759069130732,7.7261613691931545,True,log1p + iterative imputation + Z-score
+ALT,Numerical predictor,float64,428,7.32375085557837,7.383863080684597,True,log1p + iterative imputation + Z-score
+ONART,Categorical predictor,int64,0,0.0,0.0,True,mode imputation + embedding token
+ARTV,Categorical predictor,int64,0,0.0,0.0,True,mode imputation + embedding token
+HAARTV2,Categorical predictor,int64,0,0.0,0.0,True,mode imputation + embedding token
+ADH,Categorical predictor,float64,2550,43.634496919917865,43.863080684596575,True,mode imputation + embedding token
+FARTD,Excluded metadata/other,object,2550,43.634496919917865,43.863080684596575,False,excluded
+ART_DURATION_DAYS,Numerical predictor,float64,2550,43.634496919917865,43.863080684596575,True,iterative imputation + Z-score
+VLDT,Excluded metadata/other,object,2092,35.79739904175223,35.794621026894866,False,excluded
+VLOAD,Excluded leakage,float64,2092,35.79739904175223,35.794621026894866,False,excluded
+UD_VL,Excluded leakage,float64,2092,35.79739904175223,35.794621026894866,False,excluded
+NS_VL,Excluded leakage,float64,2092,35.79739904175223,35.794621026894866,False,excluded
+LLQ_VL,Excluded leakage,float64,2092,35.79739904175223,35.794621026894866,False,excluded
+CD4DT,Excluded metadata/other,object,2092,35.79739904175223,35.794621026894866,False,excluded
+CD4N,Numerical predictor,float64,2092,35.79739904175223,35.794621026894866,True,iterative imputation + Z-score
+CD4P,Numerical predictor,float64,2092,35.79739904175223,35.794621026894866,True,iterative imputation + Z-score
+CD8N,Numerical predictor,float64,2092,35.79739904175223,35.794621026894866,True,iterative imputation + Z-score
+CD8P,Numerical predictor,float64,2092,35.79739904175223,35.794621026894866,True,iterative imputation + Z-score
+HSRAT,Numerical predictor,float64,2092,35.79739904175223,35.794621026894866,True,log1p + iterative imputation + Z-score
+SCREENING_ELIGIBLE,Outcome/mask,int64,0,0.0,0.0,False,excluded
+ART_MONITORING_ELIGIBLE,Outcome/mask,int64,0,0.0,0.0,False,excluded
+HIV_SCREEN_LABEL,Outcome/mask,int64,0,0.0,0.0,False,excluded
+ART_UNSUPPRESSED_LABEL,Outcome/mask,float64,2550,43.634496919917865,43.863080684596575,False,excluded
+ART_SUPPRESSION_LABEL,Outcome/mask,float64,2550,43.634496919917865,43.863080684596575,False,excluded
+DATA_SPLIT,Excluded metadata/other,object,0,0.0,0.0,False,excluded

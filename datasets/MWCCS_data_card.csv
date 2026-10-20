@@ -1,0 +1,12 @@
+Item,Value
+Dataset type,Synthetic MWCCS-style proxy; NOT actual MWCCS participant data
+Unique participants,5844
+HIV-positive participants,3752
+HIV-negative participants,2092
+Rows,5844
+Train/validation/test unit,Participant
+Approximate split,70% / 15% / 15%
+ART outcome threshold used in synthetic labels,ART_UNSUPPRESSED_LABEL = 1 when VLOAD >= 1000 copies/mL
+Synthetic flag,SYNTHETIC_FLAG = 1 for every row
+Primary intended use,"FT-Transformer pipeline development, debugging, preprocessing, and simulation experiments"
+Not appropriate for,Reporting empirical MWCCS clinical performance or claiming results from real MWCCS patients

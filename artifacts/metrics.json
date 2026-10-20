@@ -1,0 +1,46 @@
+{
+  "device": "cpu",
+  "best_epoch": 5,
+  "best_validation_loss": 0.21182993543732534,
+  "hiv_screening": {
+    "n": 877,
+    "prevalence": 0.6419612314709237,
+    "roc_auc": 1.0,
+    "average_precision": 1.0,
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "f1": 1.0,
+    "brier": 8.801600870356197e-08,
+    "confusion_matrix": [
+      [
+        314,
+        0
+      ],
+      [
+        0,
+        563
+      ]
+    ]
+  },
+  "art_monitoring_eligible_only": {
+    "n": 500,
+    "prevalence": 0.096,
+    "roc_auc": 0.896386430678466,
+    "average_precision": 0.5908555334516815,
+    "accuracy": 0.92,
+    "balanced_accuracy": 0.7043694690265487,
+    "f1": 0.5121951219512195,
+    "brier": 0.05917970836162567,
+    "confusion_matrix": [
+      [
+        439,
+        13
+      ],
+      [
+        27,
+        21
+      ]
+    ]
+  },
+  "feature_note": "Direct targets/eligibility, HIVPOS, viral-load variables, IDs, dates and split fields excluded."
+}

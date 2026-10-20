@@ -1,0 +1,87 @@
+{
+  "device": "cpu",
+  "best_epoch": 6,
+  "best_validation_loss": 0.8451676889999155,
+  "hiv_screening_noninvasive": {
+    "n": 877,
+    "prevalence": 0.6419612314709237,
+    "roc_auc": 0.7016155490943647,
+    "average_precision": 0.8117774103184185,
+    "accuracy": 0.685290763968073,
+    "balanced_accuracy": 0.6027649873855936,
+    "f1": 0.7847113884555382,
+    "brier": 0.20354510843753815,
+    "confusion_matrix": [
+      [
+        98,
+        216
+      ],
+      [
+        60,
+        503
+      ]
+    ]
+  },
+  "art_monitoring_eligible_only": {
+    "n": 500,
+    "prevalence": 0.096,
+    "roc_auc": 0.8861080383480826,
+    "average_precision": 0.5734695269915513,
+    "accuracy": 0.914,
+    "balanced_accuracy": 0.7848451327433628,
+    "f1": 0.5825242718446602,
+    "brier": 0.06656289845705032,
+    "confusion_matrix": [
+      [
+        427,
+        25
+      ],
+      [
+        18,
+        30
+      ]
+    ]
+  },
+  "hiv_allowed_features": [
+    "AGEATVIS",
+    "HEIGHT",
+    "WEIGHT",
+    "BMI",
+    "TOTCHOL",
+    "HDL",
+    "TRIGLYC",
+    "NONHDL",
+    "MHLDLC",
+    "ALBU",
+    "PROT",
+    "GLOBULIN",
+    "A_G_RATIO",
+    "TC_HDL_RATIO",
+    "LDL_HDL_RATIO",
+    "TG_HDL_RATIO",
+    "HBA1C",
+    "GLUCOSE",
+    "CREAT",
+    "AST",
+    "ALT",
+    "SEXBIRTH",
+    "FASTING",
+    "CHOLRX",
+    "NIACIN",
+    "FIBRATES",
+    "DIABETES"
+  ],
+  "art_additional_features": [
+    "ART_DURATION_DAYS",
+    "CD4N",
+    "CD4P",
+    "CD8N",
+    "CD8P",
+    "HSRAT",
+    "ONART",
+    "ARTV",
+    "HAARTV2",
+    "ADH"
+  ],
+  "synthetic_art_rows": 828
+}

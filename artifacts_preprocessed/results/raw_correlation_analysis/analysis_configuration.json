@@ -1,0 +1,6 @@
+{
+  "rows": 5844,
+  "numeric_variables": 28,
+  "categorical_variables": 13,
+  "method_note": "No preprocessing; missing pairs omitted pairwise. ART outcome correlations restricted to eligible participants."
+}

@@ -1,0 +1,53 @@
+{
+  "device": "cpu",
+  "best_epoch": 5,
+  "best_validation_loss": 0.2574101663369817,
+  "hiv_screening": {
+    "n": 877,
+    "prevalence": 0.6419612314709237,
+    "roc_auc": 0.9994117048115758,
+    "average_precision": 0.9996808504149661,
+    "accuracy": 0.9885974914481186,
+    "balanced_accuracy": 0.990414748107839,
+    "f1": 0.9910554561717353,
+    "brier": 0.008579472079873085,
+    "confusion_matrix": [
+      [
+        313,
+        1
+      ],
+      [
+        9,
+        554
+      ]
+    ]
+  },
+  "art_monitoring_eligible_only": {
+    "n": 500,
+    "prevalence": 0.096,
+    "roc_auc": 0.903530604719764,
+    "average_precision": 0.5720288857194754,
+    "accuracy": 0.92,
+    "balanced_accuracy": 0.7509218289085546,
+    "f1": 0.5652173913043478,
+    "brier": 0.06001238897442818,
+    "confusion_matrix": [
+      [
+        434,
+        18
+      ],
+      [
+        22,
+        26
+      ]
+    ]
+  },
+  "augmentation": {
+    "method": "training-only TabDDPM-style Gaussian diffusion",
+    "imbalance_trigger_ratio": 4,
+    "eligible_majority": 2083,
+    "eligible_minority": 213,
+    "synthetic_minority_rows": 828,
+    "post_augmentation_minority_to_majority": 0.499759961593855
+  }
+}
